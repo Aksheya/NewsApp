@@ -1,0 +1,15 @@
+.favouriteContainer{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.favourites{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.black-font{
+    color: black
+}

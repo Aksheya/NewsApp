@@ -1,0 +1,43 @@
+.react-switch-handle{
+    box-shadow : none !important;
+}
+.navToolTip{
+    margin-top: 5px !important;
+    padding: 5px !important;
+}
+
+.navSwitch{
+    align-items: center;
+    padding-right: 10px;
+}
+
+.bg-dark{
+    background : linear-gradient(to right, #1d2849,#556eac)
+}
+
+.navBookmark{
+    padding-right: 10px !important;
+}
+
+@media  (max-width: 768px){
+    .navSwitch{
+        align-items: baseline;
+    }
+    .nav-link-class{
+        padding: 10px 10px 10px 0px !important;
+    }
+}
+
+.nav-link-class{
+    color: rgba(255,255,255,.5);
+    padding: 10px;
+}
+
+.nav-link-class:hover{
+    color:#f2f2f2
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+  }

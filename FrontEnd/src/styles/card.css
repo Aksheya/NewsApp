@@ -1,0 +1,50 @@
+.articleImage{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.articleDate{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.fluidContainer{
+    margin: 0 15px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    /* box-shadow: 0 9px 15px #bfbfbf, 0 -8px 45px 17px white, 4px 0 9px #bfbfbf, -4px 0 9px #bfbfbf; */
+    box-shadow: 0 7px 14px 0 #bfbfbf;
+    cursor: pointer;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.articleTitle{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.articleCard{
+    padding: 20px 5px;
+    border-radius: 4px;
+    margin: 20px 0px 40px 0px;
+}
+
+.articleSection{
+    float: right;
+}
+
+@media  (max-width: 768px){
+    .fluidContainer{
+        cursor: auto !important;
+    }
+    
+    .articleCard{
+        margin: 20px 0px 0px 0px;
+    }
+}

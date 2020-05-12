@@ -1,0 +1,117 @@
+.articleContainer{
+    margin: 15px 15px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    /* box-shadow: 0 5px 15px #bfbfbf, 0 -12px 45px 17px white, 1px 0 9px #bfbfbf, -1px 0 9px #bfbfbf; */
+    box-shadow: 0 7px 14px 0 #bfbfbf;
+    padding-bottom: 30px !important;
+}
+
+.commentboxContainer{
+    margin: 15px 15px !important;
+    max-width: 100% !important;
+    width: auto !important;    
+}
+
+.detailedArticleImage{
+    width: 100%;
+}
+
+.detailedArticleShortDescription{
+    cursor: pointer;
+}
+
+.commentbox{
+    width: 100%;
+}
+
+.detailedArticleTitle{
+    padding: .75% 1.5% .4% 1.5%;
+    font-size: 30px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.detailedArticleDate{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.rowContent{
+    cursor: pointer;
+    /* padding-bottom: 0.7% !important; */
+    padding-bottom: 8px;
+}
+
+.detailedArticleImageRow{
+    cursor: pointer;
+}
+
+.detailedArticleLongDescription{
+    cursor: pointer;
+}
+
+.showButton{
+    text-align: right;
+    padding: 1% 0.5%;
+}
+
+.downArrow{
+    cursor: pointer;
+}
+
+.upArrow{
+    cursor: pointer;
+}
+
+button.react-share__ShareButton:focus {
+    outline: none;
+}
+
+.toolTip{
+    margin-top: -3px !important;
+    padding: 5px !important;
+}
+
+.Toastify__close-button--default{
+    font-size: 12px;
+}
+
+.black-font{
+   
+    color: black
+}
+
+.detailedArticleTitle{
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.rowContent{
+    padding-left: 20px !important;
+}
+
+.detailedArticleImageRow{
+    padding: 0 2px;
+}
+.styleBookmark{
+    padding-left:0px !important;
+}
+
+@media (max-width: 768px){
+
+    .rowContent{
+        cursor: auto;
+    }
+
+    .detailedArticleTitle, .detailedArticleImageRow, .detailedArticleLongDescription, .detailedArticleShortDescription, .downArrow, .upArrow{
+        cursor: auto;
+    }
+    
+}
+
+@media (max-width: 340px){
+    .detailedArticleDate{
+        padding-left: 0px !important;
+    }
+}

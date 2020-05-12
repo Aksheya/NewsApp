@@ -1,0 +1,24 @@
+.modal-title{
+    font-size: 19px !important;
+    line-height: 1.4 !important;
+    font-weight: 600 !important;
+}
+
+.modal-body{
+    font-size: 19px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+.modal-row{
+    padding-top: 1%;
+}
+
+button.close:focus {
+    outline: none;
+}
+
+.modalType{
+    font-weight: bold;
+    font-size: 23px;
+}
