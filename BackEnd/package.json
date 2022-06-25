@@ -10,7 +10,7 @@
     "express": "^4.17.1",
     "guardian-js": "^2.0.0",
     "newsapi": "^2.4.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {},
   "scripts": {
